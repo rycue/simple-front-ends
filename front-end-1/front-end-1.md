@@ -1,0 +1,6 @@
+- **Header**: Contains the site navigation with links to different sections.
+- **About Section**: Introduces you with a brief description.
+- **Skills Section**: Displays your skills in neat, flexbox-aligned boxes.
+- **Projects Section**: Lists projects in individual boxes for readability.
+- **Contact Section**: Provides a link to email you directly.
+- **Footer**: Simple copyright notice.
