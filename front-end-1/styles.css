@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    color: #333;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav h1 {
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styling */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+/* About Section */
+#about p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Skills Section */
+#skills .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill {
+    background: #333;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project {
+    background: #e7e7e7;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project h3 {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+#contact .email {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
